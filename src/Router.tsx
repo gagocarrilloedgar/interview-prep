@@ -3,7 +3,7 @@ import {
   RouterProvider as ReactRouterProvider
 } from "react-router-dom";
 
-import { Layout } from "./sections";
+import { Layout, Login, Signup } from "./sections";
 
 const Home = () => {
   return <div>Home</div>;
@@ -20,11 +20,11 @@ export const router = createBrowserRouter([
       },
       {
         path: "/login",
-        element: <div>Login</div>
+        element: <Login />
       },
       {
         path: "/signup",
-        element: <div>Signup</div>
+        element: <Signup />
       },
       {
         path: "/profile",

@@ -1,4 +1,4 @@
-import { Breadcrumb, Layout as AntLayout, Menu, theme } from "antd";
+import { Layout as AntLayout, Menu, theme } from "antd";
 
 import { Link, Outlet } from "react-router-dom";
 import { ErrorBoundary } from "./ErrorBoundary";
@@ -30,11 +30,11 @@ export const Layout = () => {
       </Header>
       <AntLayout>
         <AntLayout style={{ padding: "0 1rem" }}>
-          <Breadcrumb style={{ margin: "16px 0" }}>
+          {/*  <Breadcrumb style={{ margin: "16px 0" }}>
             <Breadcrumb.Item>Home</Breadcrumb.Item>
             <Breadcrumb.Item>List</Breadcrumb.Item>
             <Breadcrumb.Item>App</Breadcrumb.Item>
-          </Breadcrumb>
+  </Breadcrumb>*/}
           <Content
             style={{
               padding: "1rem",
